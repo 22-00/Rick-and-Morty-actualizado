@@ -1,0 +1,39 @@
+.divContenedor {
+    /* display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap; */
+    background-image: url("https://images3.alphacoders.com/606/606020.jpg");
+    background-size: cover;
+    height: fit-content;
+    border: 6px solid black;
+    border-radius: 25px;
+    padding:20px;
+    margin-top: 20px;
+    color: aliceblue;
+}
+
+.divContenedor button {
+    display: flex;
+    align-self: self-end;
+}
+
+.imagen {
+    border-radius: 10px;
+}
+
+.Divimagen {
+    margin: 5px;
+	width: 24%;
+	margin-bottom: 10px;
+	overflow: hidden;
+	position: relative;
+	cursor: pointer;
+	box-shadow: 0 0 6px 0 rgba(0,0,0, .5)
+}
+
+.Divimagen img {
+    width: 100%;
+	height: 100%;
+	object-fit: cover;
+	display: block;
+}

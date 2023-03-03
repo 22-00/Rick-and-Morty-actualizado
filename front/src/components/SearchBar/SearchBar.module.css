@@ -1,0 +1,22 @@
+.barra {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+
+.barra input {
+    background-image: url("https://images3.alphacoders.com/606/606020.jpg");
+    margin-top: 13px;
+    display: flex;
+    flex-direction: row;
+    width: 250px;
+    height: 25px;
+    border-radius: 5px;
+}
+
+.barra button {
+    margin-top: 13px;
+    background-image: url("https://images3.alphacoders.com/606/606020.jpg");
+    border-radius: 3px;
+    margin-left: 10px;;
+}
